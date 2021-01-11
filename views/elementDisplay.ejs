@@ -1,0 +1,17 @@
+<h1><%= element.charAt(0).toUpperCase() + element.slice(1) %></h1>
+
+<h2>The <%= element %> signs:</h2>
+<ul>
+    <% signs.forEach(sign => { %>
+        <li><%= sign %></li>
+    <% }) %>
+</ul>
+
+<h2>Traits associated with <%= element %> signs:</h2>
+<ul>
+    <% traits.forEach(trait => { %>
+        <li><%= trait %></li>
+    <% }) %>
+</ul>
+
+<a href="/">Home</a>
